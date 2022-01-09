@@ -10,3 +10,7 @@ manuscript.synctex.gz
 manuscript.out
 manuscript.toc
 packages_and_options.log
+bibliography.bbl
+bibliography.blg
+manuscript.bcf
+manuscript.run.xml
