@@ -6,3 +6,7 @@ manuscript.bib.sav.tmp
 manuscript.blg
 manuscript.log
 manuscript.synctex.gz
+*.aux
+manuscript.out
+manuscript.toc
+packages_and_options.log
