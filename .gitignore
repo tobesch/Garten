@@ -14,3 +14,4 @@ bibliography.bbl
 bibliography.blg
 manuscript.bcf
 manuscript.run.xml
+*.tmp
