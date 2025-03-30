@@ -1,16 +1,16 @@
 *.aux
 *.bak
 *.tmp
+*.log
 
 manuscript.aux
 manuscript.bbl
 manuscript.blg
-manuscript.log
 manuscript.synctex.gz
+manuscript.dvi
 
 manuscript.out
 manuscript.toc
-packages_and_options.log
 bibliography.bbl
 bibliography.blg
 manuscript.bcf
