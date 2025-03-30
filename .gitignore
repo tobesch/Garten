@@ -1,12 +1,13 @@
+*.aux
+*.bak
+*.tmp
 
 manuscript.aux
 manuscript.bbl
-manuscript.bib.bak
-manuscript.bib.sav.tmp
 manuscript.blg
 manuscript.log
 manuscript.synctex.gz
-*.aux
+
 manuscript.out
 manuscript.toc
 packages_and_options.log
@@ -14,5 +15,3 @@ bibliography.bbl
 bibliography.blg
 manuscript.bcf
 manuscript.run.xml
-*.tmp
-bibliography.bib.bak
