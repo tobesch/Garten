@@ -1,26 +1,22 @@
 *.aux
 *.bak
-*.tmp
-*.log
 *.bbl
 *.bcf
 *.blg
 *.idx
+*.lof
+*.log
+*.lot
 *.out
 *.pdf
 *.run.xml
 *.synctex.gz
+*.tmp
 *.thm
+*.toc
 
-manuscript.aux
-manuscript.bbl
-manuscript.blg
-manuscript.synctex.gz
 manuscript.dvi
 
 manuscript.out
-manuscript.toc
-bibliography.bbl
-bibliography.blg
-manuscript.bcf
-manuscript.run.xml
+
+
