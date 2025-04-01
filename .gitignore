@@ -2,6 +2,15 @@
 *.bak
 *.tmp
 *.log
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.out
+*.pdf
+*.run.xml
+*.synctex.gz
+*.thm
 
 manuscript.aux
 manuscript.bbl
