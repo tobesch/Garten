@@ -12,15 +12,8 @@
 *.synctex.gz
 *.thm
 
-manuscript.aux
-manuscript.bbl
-manuscript.blg
-manuscript.synctex.gz
 manuscript.dvi
 
 manuscript.out
 manuscript.toc
-bibliography.bbl
-bibliography.blg
-manuscript.bcf
-manuscript.run.xml
+
