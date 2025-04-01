@@ -1,24 +1,45 @@
+%%%%%%%%%%%%%%%%%%%% book.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% sample root file for the chapters of your "monograph"
+%
+% Use this file as a template for your own input.
+%
+%%%%%%%%%%%%%%%% Springer-Verlag %%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \input{packages_and_options}
 
 \begin{document}
-	
+
 \author{Tobias Schwinn}
 \title{Gartennotizen}
-\date{März 2025}
-
-\frontmatter
+%\subtitle{-- Monograph --}
 \maketitle
+
+\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\include{content/Widmung}
+%\include{content/Vorwort}
+\include{content/Einleitung}
+%\include{author/acknowledgement}
+
 \tableofcontents
 
-\mainmatter
-\include{./content/Einleitung}
-\include{./content/Jahreszeiten}
-\include{./content/Nutzgarten}
-\include{./content/Ziergarten}
+\include{content/Abkürzungen}
 
-\backmatter
-% bibliography, glossary and index would go here.
 
+\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{content/Jahreszeiten}
+\include{content/Nutzgarten}
+\include{content/Ziergarten}
+%\include{author/chapter}
+%\include{author/appendix}
+
+\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{content/Glossar}
+%\include{author/solutions}
+\printindex
 \printbibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
